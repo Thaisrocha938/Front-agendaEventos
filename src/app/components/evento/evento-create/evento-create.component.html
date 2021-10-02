@@ -1,0 +1,24 @@
+<mat-card class="eventoCreate mat-elevation-z1">
+    <mat-card-title>Novo Produto</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome" [(ngModel)]="evento.nome" name="nome"/>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Local" [(ngModel)]="evento.local" name="local"/>
+        </mat-form-field>
+        <mat-form-field class="data-element">
+            <input matInput placeholder="Data" type="date" [(ngModel)]="evento.data" name="data"/>
+        </mat-form-field>
+        <mat-form-field class="hora-element">
+            <input matInput placeholder="Horario" type="time" [(ngModel)]="evento.horario" name="horario"/>
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="createEvento()" color="primary">
+        Salvar
+    </button>
+    <button mat-raised-button (click)="cancel()">
+        Cancelar
+    </button>
+</mat-card>
+

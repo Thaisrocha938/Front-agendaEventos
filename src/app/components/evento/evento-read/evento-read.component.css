@@ -1,0 +1,25 @@
+ul i.config1{
+    position: fixed;
+    left: 91%;
+
+}
+ul i.config2{
+    position: fixed;
+    left: 95%;
+
+}
+.eventoRead {
+    margin-bottom: 15px;
+}
+ul{
+    list-style: none;
+    display: table;
+}
+
+ul li{
+    margin-bottom: 15px;
+}
+
+ul li i{
+    margin-right: 7px;
+}

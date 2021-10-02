@@ -1,0 +1,13 @@
+form{
+    display: flex;
+    flex-direction: column;   
+}
+.data-element{
+    width: 200px;
+}
+.hora-element{
+    width: 200px;
+}
+.eventoCreate{
+    background-color: rgb(92, 92, 92);
+}
